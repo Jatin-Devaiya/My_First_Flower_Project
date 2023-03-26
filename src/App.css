@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home page */
+nav{
+    color: aqua;
+    height: 50px;   
+    background: linear-gradient(pink , skyblue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width:40%;
+    color:brown;
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar1{
+    width: 60%;
+    float: right;
+    margin-left: 200px;
+    display: flex;
+    justify-content:space-evenly;   
+}
+.Link{
+    text-decoration: none;
+    color:chocolate;
+}
+.Link:hover{
+    
+    color: white;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    transition: all .8s ease;
+    transform: scale(1.03);
+    transition: all .8s ease;
+}
+
+.title{
+        background-image: url("H:\React_project\flower\public\backimg.jpg");
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(30, 192, 100, 0.703);
+        text-shadow: 5px -4px 5px rgb(61, 17, 17), 5px -5px 4px rgba(150, 71, 193, 0.871);  
+}
+.wel:hover{
+    font-size: 40px;
+    transition: all .8s ease-in-out;
+    
+}
+.container{
+    /* display: flex; */
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background:linear-gradient(rgb(219, 192, 192),rgb(195, 215, 222))
+
+}
+.card{
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+.card-image{
+    
+    height: 270px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.card h3  {
+    text-align: center;
+    padding: 5px;
+}
+.card p  {
+    text-align: center;
+    /* padding: 5px; */
+}
+.readmore{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    display: block;
+    margin: 15px 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.readmore:hover{
+    color: black;
+    background-color: white;
+}
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+/* about  page css */
+.abthed{
+    text-align: center;
+    padding: 15px;
+    color: brown;
+}
+.abouttitle{
+    text-align:left;
+    padding-left: 20px;
+}
+.aboutphoto{
+    float: left;
+    height: 160px;
+    
+}.aboutback{
+    background:linear-gradient(rgb(219, 192, 192),rgb(195, 215, 222))
+}
+
+/* login form */  /* registration form */
+
+.form{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    background-image: url("H:\React_project\flower\public\backimg.jpg");
+    background-size: cover;
+    box-shadow:  15px -12px 7px 2px skyblue, -10px 10px 5px 2px pink;
+}
+.login{
+    padding: 20px;
+    color:brown
+}
+.btn {
+    margin: 20px;
+    color: white;
+    background-color: rgb(247, 48, 85);
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: rgba(179, 212, 179, 0.939);
+    color: black;
+    font-size: 15px;
+}
+
+.loginback{
+    background: linear-gradient(rgb(219, 192, 192),rgb(195, 215, 222));
+}
+.active{
+    color: white;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
